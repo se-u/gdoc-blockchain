@@ -1,9 +1,9 @@
 import  { useState } from 'react';
 import { Button } from 'antd';
-import WalletModal from '../../WalletModal';  // Make sure the path is correct
 import { useActiveAccount } from '../hooks/useActiveAccount';
 import { useConnectWallet } from '../hooks/useConnectWallet';
 import { useStatus } from '../hooks/useStatus';
+import WalletModal from './WalletModal';
 
 const ConnectButton = () => {
   const {walletLoading: loading} = useStatus();

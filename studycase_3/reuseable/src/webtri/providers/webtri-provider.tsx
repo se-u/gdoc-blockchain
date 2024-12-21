@@ -26,7 +26,7 @@ export const WebtriProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   // Initialize contract
   useEffect(() => {
     setLoading(true);
-    const VITE_CONTRACT_ADDRESS = import.meta.env.VITE_CONTRACT_ADDRESS;
+    const VITE_CONTRACT_ADDRESS = "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0";
     if (!client) return;
     if (!VITE_CONTRACT_ADDRESS) {
       console.error("Contract address not found");
