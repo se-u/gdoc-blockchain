@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "chai": "^5.1.2",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.17"
+  }
+}
